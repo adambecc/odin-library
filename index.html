@@ -1,30 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Library App</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library App</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>My Library</h1>
-  <button id="newBookBtn">NEW BOOK</button>
-  
-  <!-- Form Modal -->
-  <dialog id="bookFormModal">
-    <form id="bookForm">
-      <label>Title: <input type="text" id="title" required></label>
-      <label>Author: <input type="text" id="author" required></label>
-      <label>Pages: <input type="number" id="pages" required></label>
-      <label>Read: <input type="checkbox" id="read"></label>
-      <button type="submit">Add Book</button>
-      <button type="button" id="cancelBtn">Cancel</button>
-    </form>
-  </dialog>
-  
-  <!-- Books Container -->
-  <div id="booksContainer"></div>
+    <h1>My Library</h1>
+    <button id="newBookBtn">NEW BOOK</button>
+    
+    <!-- Form Modal -->
+    <dialog id="bookFormModal">
+        <form id="bookForm">
+            <label>Title: <input type="text" id="title" required></label>
+            <label>Author: <input type="text" id="author" required></label>
+            <label>Pages: <input type="number" id="pages" required></label>
+            <label>Read: <input type="checkbox" id="read"></label>
+            <button type="submit">Add Book</button>
+            <button type="button" id="cancelBtn">Cancel</button>
+        </form>
+    </dialog>
+    
+    <!-- Books Container -->
+    <div id="booksContainer"></div>
 
-  <script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>

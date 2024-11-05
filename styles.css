@@ -1,48 +1,76 @@
 /* styles.css */
 
 body {
-    font-family: Arial, sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #6b1c48;
-    color: white;
-  }
-  
-  #newBookBtn {
-    margin: 20px;
-    padding: 10px 20px;
-  }
-  
-  #bookFormModal {
-    padding: 20px;
-    border: none;
-  }
-  
-  #bookForm label {
-    display: block;
-    margin: 10px 0;
-  }
-  
-  #booksContainer {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-  }
-  
-  .book-card {
-    padding: 10px;
-    width: 200px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color:#3a0020;
-    border-radius: 30px;
-  }
-  
-  button {
-    margin: 5px;
-    border: 0;
-    border-radius: 5px;
-  }
-  
+	font-family: Arial, sans-serif;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #6b5b95;
+	color: white;
+}
+	
+#newBookBtn {
+	margin: 20px;
+	padding: 10px 20px;
+	background-color: #d64161;
+	color: white;
+	border-color: #feb236;
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+	
+#bookFormModal {
+	padding: 20px;
+	border: none;
+	border-radius: 10px;
+	background-color:#d64161;
+	color: white;
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+	
+#bookForm label {
+	display: block;
+	margin: 10px 0;
+	align-items: center;
+}
+	
+#booksContainer {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+}
+	
+.book-card {
+	padding: 10px;
+	width: 200px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color:#ff7b25;
+	border-radius: 30px;
+	border: #d64161;
+	border-width: 1px;
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.book-card:hover {
+	transform: scale(1.03);
+	transition: transform 0.3s ease;
+}
+	
+button {
+	margin: 5px;
+	border: 1;
+	border-color: #d64161;
+	border-radius: 5px;
+	background-color: #feb236;
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+button:hover {
+transform: scale(1.03);
+	transition: transform 0.3s ease;
+}
+
+.book-card.innerHTML{
+	font-weight: 900;
+}
